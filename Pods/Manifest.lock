@@ -1,0 +1,30 @@
+PODS:
+  - DropDown (2.3.13)
+  - IQKeyboardManagerSwift (6.5.12)
+  - Realm (10.41.0):
+    - Realm/Headers (= 10.41.0)
+  - Realm/Headers (10.41.0)
+  - RealmSwift (10.41.0):
+    - Realm (= 10.41.0)
+
+DEPENDENCIES:
+  - DropDown
+  - IQKeyboardManagerSwift
+  - RealmSwift (~> 10)
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Realm: 669efee7dc1ce0aa9f6739a60f8c0df0a3835067
+  RealmSwift: 6b7b0e91b79dc66d5cfceeb3b319cacfc9b1a70e
+
+PODFILE CHECKSUM: b4754cf914a9bc696c2ef5d6b76660eba9aed5fa
+
+COCOAPODS: 1.12.1

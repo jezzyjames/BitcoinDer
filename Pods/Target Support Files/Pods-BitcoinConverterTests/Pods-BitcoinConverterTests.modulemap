@@ -1,0 +1,6 @@
+framework module Pods_BitcoinConverterTests {
+  umbrella header "Pods-BitcoinConverterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
