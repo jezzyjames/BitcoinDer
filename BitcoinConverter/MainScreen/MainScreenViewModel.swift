@@ -73,7 +73,6 @@ class MainScreenViewModel {
                 print("Realm failed to write!")
             }
         }
-        print(allCurrencyRealm)
     }
     
     private func fetchData() {

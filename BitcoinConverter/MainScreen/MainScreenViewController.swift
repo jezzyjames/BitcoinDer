@@ -56,7 +56,6 @@ class MainScreenViewController: UIViewController {
         dropDown.dataSource = dropDownDataSource
         
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
-            print("Selected item: \(item) at index: \(index)")
             mainScreenViewModel.selectedCurrency = item
         }
         
@@ -103,7 +102,6 @@ extension MainScreenViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(mainScreenViewModel.currencyList?[indexPath.row] ?? "")
         
         let historyViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "historyViewController") as! HistoryViewController
         
